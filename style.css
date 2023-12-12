@@ -1,34 +1,27 @@
-/* .container{
-    background-color: blanchedalmond;
-    height: 800px;
-    width: 80%;
-    margin: 0 auto  ;
+.nav-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
 }
-.wrapper{
-    background-color: blue;
-    width: 80%;
-    height: 800px;
+.list-item {
+  position: relat ive;
+  display: inline-block;
+  padding: 20px;
+  background-color: green;
 }
-.inner{
-    text-align: center;
-    font-size: 40px;
-    width: 80px;
-    height: 80px;
-    background-color: forestgreen;
-    border: 1px solid black;
+.link{
+    text-decoration: none;
+     font-size: 20px;
 }
-.div1{
+.sun_now_list{
+position: absolute;
 
 }
-.div2{
-position: relative;
-top: 10px;
-left: 20px;
+.sub-list-item{
+    display: none;
+    background-color: bisque;
+    padding: 20px;
 }
-.div3{
-    position: fixed;
-    bottom: 0%;
+.list-item:hover .sub-list-item{
+    display: block;
 }
-.div4{
-    
-} */
